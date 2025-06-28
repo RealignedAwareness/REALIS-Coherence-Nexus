@@ -70,6 +70,18 @@
     .center {
       text-align: center;
     }
+    .payment-link {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .payment-link a {
+      color: #000;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    .payment-link a:hover {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
@@ -93,6 +105,10 @@
       <option value="no">🚫 Not yet (I will pay now)</option>
     </select>
 
+    <div class="payment-link">
+      Haven’t paid yet? <a href="https://realignedawareness.gumroad.com/l/REALIS-scan" target="_blank">Click here to pay →</a>
+    </div>
+
     <label for="notes">Optional: Additional notes</label>
     <textarea id="notes" name="notes" rows="3"></textarea>
 
@@ -109,4 +125,3 @@
   </div>
 </body>
 </html>
-
